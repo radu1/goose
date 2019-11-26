@@ -11,7 +11,7 @@ The script `script-complete-workflow.sh` reproduces the complete workflow of the
 As reported in the paper, it took 8 days for us to run this complete workflow.
 
 The entire data that we used (graphs, queries, and query answers) takes 46GB and includes many large files, hence we were not able to add it on GitHub. We nonetheless we make it available at a different URL.
-Thus, to reproduce the plots from the paper, download a compressed archive (11GB) of the data, uncompress, and run only the script plot (the two parameters indicate data directory and graph scaling factor on which to zoom for the time shares of the participants):
+To reproduce the plots from the paper, download a compressed archive (11GB) of the data, uncompress, and run only the script plot (the two parameters indicate data directory and graph scaling factor on which to zoom for the time shares of the participants):
 ```
 wget http://sancy.univ-bpclermont.fr/~lafourcade/95BQR75_CL19/data.tgz
 tar -xvf data.tgz
