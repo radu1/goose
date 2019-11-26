@@ -75,7 +75,7 @@ plt.xlabel("Scaling factor")
 plt.ylabel("Time (seconds)")
 plt.xscale('log')
 plt.yscale('log')
-markers = ["o", "s", "P", "v"]
+markers = ["o", "s", "*", "v"]
 for i in range(len(use_cases)):
 	plt.plot(list_scaling_factors, lists_go[use_cases[i]], marker=markers[i])
 plt.legend(loc="upper left", labels=use_cases)
@@ -128,12 +128,12 @@ for i in range(len(use_cases)):
 	plt.xscale('log')
 	plt.yscale('log')
 	plt.ylim(0.1, 100)
-	plt.plot(list_scaling_factors_run_sparql, lists_qe[use_case][0], marker="X", label='Standard', color="purple")
-	plt.plot(list_scaling_factors_run_sparql, lists_qe[use_case][1], marker="D", label='GOOSE', color="olive")
+	plt.plot(list_scaling_factors_run_sparql, lists_qe[use_case][0], marker=">", label='Standard', color="purple")
+	plt.plot(list_scaling_factors_run_sparql, lists_qe[use_case][1], marker="d", label='GOOSE', color="olive")
 	if i == 0:
 		plt.legend(bbox_to_anchor=(2., 1.3), ncol=2)
 	ax2 = plt.twinx()
-	ax2.plot(list_scaling_factors_run_sparql, lists_qe[use_case][2], marker=">", label="Overhead", color="darkblue")
+	ax2.plot(list_scaling_factors_run_sparql, lists_qe[use_case][2], marker="x", label="Overhead", color="darkblue")
 	if i == 0:
 		ax2.legend(bbox_to_anchor=(3.4, 1.3))
 	ax2.set_ylim(0,100)
