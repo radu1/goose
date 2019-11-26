@@ -1,5 +1,4 @@
-# GOOSE
-## a framework for Graph OutsOurcing and SPARQL Evaluation
+## GOOSE (a framework for Graph OutsOurcing and SPARQL Evaluation)
 
 
 
