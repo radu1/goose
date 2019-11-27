@@ -1,5 +1,5 @@
 # GOOSE 
-## (a framework for encrypted Graph OutsOurcing and SPARQL Evaluation)
+## (a secure framework for Graph OutsOurcing and Sparql Evaluation)
 
 This repository contains the open-source code of GOOSE and scripts that allow to reproduce the experimental results from our paper.
 
