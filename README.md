@@ -3,6 +3,17 @@
 
 This repository contains the open-source code of GOOSE and scripts that allow to reproduce the experimental results from our paper.
 
+If you use this code, please cite:
+
+    @inproceedings{CL20,
+      author    = {Ciucanu, R. and Lafourcade, P.},
+      title     = {{GOOSE: A Secure Framework for Graph Outsourcing and SPARQL Evaluation}},
+      booktitle = {DBSec},
+      year      = {2020},
+      pages     = {Accepted. To appear}
+    }
+
+
 GOOSE is written in Python, and uses [Apache Jena](https://jena.apache.org/) (written in Java) for SPARQL evaluation and [gMark](https://github.com/graphMark/gmark) (written in C++) for graph and query workload generation.
 
 The script `install-libraries.sh` installs the necessary libraries for running GOOSE.
