@@ -6,7 +6,7 @@ This repository contains the open-source code of GOOSE and scripts that allow to
 GOOSE is written in Python, and uses [Apache Jena](https://jena.apache.org/) (written in Java) for SPARQL evaluation and [gMark](https://github.com/graphMark/gmark) (written in C++) for graph and query workload generation.
 The script `install-libraries.sh` installs the necessary libraries for running GOOSE.
 
-The script `example.sh` from the directory `running-example` reproduces the running example that we used in [DBSec paper](https://link.springer.com/chapter/10.1007%2F978-3-030-49669-2_20) and in our [DBSec talk](https://www.youtube.com/watch?v=ZhtpulFf3rs).
+The script `example.sh` from the directory `running-example` reproduces the running example that we used in our [DBSec paper](https://link.springer.com/chapter/10.1007%2F978-3-030-49669-2_20) and in our [DBSec talk](https://www.youtube.com/watch?v=ZhtpulFf3rs).
 
 The script `script-complete-workflow.sh` reproduces the complete workflow of the large-scale scalability study reported in the paper. This includes graph and query workload generation with gMark, graph outsourcing with GOOSE, and query evaluation (with GOOSE vs standard SPARQL evaluation), for 8000 queries.
 To run smaller (and quicker) scalability experiments, you should set to smaller values the scaling factors specified in the script.

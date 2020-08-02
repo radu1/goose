@@ -7,16 +7,16 @@
     <body>
       <conjunct src="?x" trg="?y0">
         <star><concat>
-          <symbol>l1</symbol>
+          <symbol>l0</symbol>
         </concat></star>
       </conjunct>
       <conjunct src="?y0" trg="?y1">
         <concat>
-          <symbol>l1</symbol>
+          <symbol>l0</symbol>
         </concat>
       </conjunct>
       <conjunct src="?y1" trg="?z">
-          <symbol>l0</symbol>
+          <symbol>l2</symbol>
       </conjunct>
     </body>
   </bodies>
