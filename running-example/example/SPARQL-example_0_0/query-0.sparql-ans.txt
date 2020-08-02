@@ -1,0 +1,9 @@
+-------------------
+| x      | z      |
+===================
+| :David | :Paris |
+| :Alice | :Milan |
+| :Alice | :Paris |
+| :Bob   | :Paris |
+| :Bob   | :Milan |
+-------------------

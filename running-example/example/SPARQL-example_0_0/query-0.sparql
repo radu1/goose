@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT DISTINCT ?x ?z WHERE {  {  ?x ((:Follows))* ?y0 . ?y0 (:Follows) ?y1 . ?y1 :TravelsTo ?z . } }

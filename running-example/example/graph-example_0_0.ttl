@@ -1,0 +1,11 @@
+@prefix : <http://example.org/gmark/> .
+
+:Alice :Follows :Bob.
+:Alice :ReadsAbout :Paris.
+:Alice :TravelsTo :Paris.
+:Bob :Follows :Alice.
+:Bob :Follows :David.
+:Bob :TravelsTo :Milan.
+:Charlie :TravelsTo :Paris.
+:David :Follows :Charlie.
+:David :ReadsAbout :Milan.

@@ -1,0 +1,24 @@
+<queries><query>
+  <head>
+    <var>?x</var>
+    <var>?z</var>
+  </head>
+  <bodies>
+    <body>
+      <conjunct src="?x" trg="?y0">
+        <star><concat>
+          <symbol>l0</symbol>
+        </concat></star>
+      </conjunct>
+      <conjunct src="?y0" trg="?y1">
+        <concat>
+          <symbol>l0</symbol>
+        </concat>
+      </conjunct>
+      <conjunct src="?y1" trg="?z">
+          <symbol>l1</symbol>
+      </conjunct>
+    </body>
+  </bodies>
+</query>
+</queries>

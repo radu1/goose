@@ -1,0 +1,1 @@
+PREFIX : <http://example.org/gmark/> SELECT DISTINCT ?x ?z WHERE {  {  ?x ((:l0))* ?y0 . ?y0 (:l0) ?y1 . ?y1 :l1 ?z . } }
