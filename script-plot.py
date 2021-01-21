@@ -152,7 +152,7 @@ for i in range(len(use_cases)):
 	plt.title(use_cases[i])
 	plt.pie(lists_zoom[use_case], colors = ["chartreuse", "red", "blue", "gray",  "pink"])
 	if i==0:
-		 plt.legend(labels=participants, bbox_to_anchor=(-0.25, 0.95))
+		 plt.legend(labels=["DO", "DC", "QT", "SE", "AT"], bbox_to_anchor=(-0.25, 0.95))
 plt.savefig(DIR + "/zoom-end-to-end-solution.pdf")
 
 
