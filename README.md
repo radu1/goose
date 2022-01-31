@@ -17,9 +17,17 @@ If you use this code, please cite:
     @inproceedings{CL20,
       author    = {Ciucanu, R. and Lafourcade, P.},
       title     = {{GOOSE: A Secure Framework for Graph Outsourcing and SPARQL Evaluation}},
-      booktitle = {DBSec},
+      booktitle = {IFIP WG 11.3 Conference on Data and Applications Security and Privacy (DBSec)},
       year      = {2020},
       pages     = {347--366}
     }
+    
+    @inproceedings{CL20demo,
+      author    = {Ciucanu, R. and Lafourcade, P.},
+      title     = {{Demonstration of GOOSE: A Secure Framework for Graph Outsourcing and SPARQL Evaluation}},
+      booktitle = {International Semantic Web Conference (ISWC) -- Demo},
+      year      = {2020}
+    }
+
 
 
